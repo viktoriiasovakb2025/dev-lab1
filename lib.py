@@ -1,7 +1,7 @@
 # Helper functions for basic password security options
 def check_password_length(password):
     # Checks if the password meets the minimum length requirement
-    if len(password) >= 8:
+    if len(password) >= 10:
         return "Strong length"
     return "Too short"
 def generate_masked_email(email):
